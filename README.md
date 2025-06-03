@@ -11,3 +11,4 @@ This project enables users to:
 
 By automating the collection and visualization of Discord server data, this solution streamlines community management and supports data-driven decision-making for server administrators and moderators.
 
+https://drive.google.com/file/d/1iRkv0DRM2oTMwkCoGvdFem1NJR13A_jQ/view?usp=sharing
