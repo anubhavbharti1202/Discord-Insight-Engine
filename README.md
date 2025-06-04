@@ -12,4 +12,6 @@ This project enables users to:
 By automating the collection and visualization of Discord server data, this solution streamlines community management and supports data-driven decision-making for server administrators and moderators.
 
 For a comprehensive walkthrough—including setup, architecture, code explanations, and dashboard usage—please see the full documentation:
+
+Documenation File/Discord Community Analytics - Project Documentation.pdf
 https://github.com/anubhavbharti1202/Discord-Insight-Engine/blob/039383813a77ce3049ad075b7728d1d69fa7303d/Documenation%20File/Discord%20Community%20Analytics%20-%20Project%20Documentation.pdf
