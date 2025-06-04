@@ -12,3 +12,4 @@ This project enables users to:
 By automating the collection and visualization of Discord server data, this solution streamlines community management and supports data-driven decision-making for server administrators and moderators.
 
 For a comprehensive walkthrough—including setup, architecture, code explanations, and dashboard usage—please see the full documentation:
+Documenation File/Discord Community Analytics - Project Documentation.pdf
