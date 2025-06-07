@@ -14,7 +14,8 @@ By automating the collection and visualization of Discord server data, this solu
 For a comprehensive walkthrough—including setup, architecture, code explanations, and dashboard usage—please see the full documentation:
 
 Documenation File/Discord Community Analytics - Project Documentation.pdf
-https://github.com/anubhavbharti1202/Discord-Insight-Engine/blob/039383813a77ce3049ad075b7728d1d69fa7303d/Documenation%20File/Discord%20Community%20Analytics%20-%20Project%20Documentation.pdf
+
+(https://github.com/anubhavbharti1202/Discord-Insight-Engine/blob/633b5f0cd8979a46998d6fe8f83b253f118d70f2/Project%20Documentation%20-%20Data%20Insight%20Engine.pdf)
 
 Dashboard Quick Walkthrough:
 https://drive.google.com/file/d/1HvZ7dok55uTFAcHQwh0J9v84IC0FeV7X/view?usp=sharing
