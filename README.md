@@ -13,5 +13,5 @@ By automating the collection and visualization of Discord server data, this solu
 
 For a comprehensive walkthrough—including setup, architecture, code explanations, and dashboard usage—please see the full documentation.
 
-Dashboard Quick Video Walkthrough:
+Dashboard Quick Walkthrough Video:
 https://drive.google.com/file/d/1HvZ7dok55uTFAcHQwh0J9v84IC0FeV7X/view?usp=sharing
