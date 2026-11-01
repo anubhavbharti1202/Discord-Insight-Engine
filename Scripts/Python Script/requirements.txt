@@ -1,0 +1,5 @@
+functions-framework==3.*
+discord.py
+psycopg2-binary
+google-cloud-secret-manager
+python-dotenv
