@@ -1,0 +1,21 @@
+steps:
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - functions
+      - deploy
+      - discord-insight-pull
+      - --gen2
+      - --project=discord-insight-engine
+      - --runtime=python312
+      - --region=us-central1
+      - --source=Scripts/Python Script
+      - --entry-point=run_discord_pull
+      - --trigger-http
+      - --no-allow-unauthenticated
+      - --memory=512MB
+      - --timeout=300s
+      - --quiet
+
+options:
+  logging: CLOUD_LOGGING_ONLY
