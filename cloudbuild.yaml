@@ -9,7 +9,7 @@ steps:
       - --project=discord-insight-engine
       - --runtime=python312
       - --region=us-central1
-      - --source=Scripts/Python Script
+      - --source=Source
       - --entry-point=run_discord_pull
       - --trigger-http
       - --no-allow-unauthenticated
