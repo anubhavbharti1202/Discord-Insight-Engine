@@ -6,7 +6,7 @@ steps:
       - deploy
       - discord-insight-pull
       - --gen2
-      - --project=discord-insight-engine
+      - --project=project-77468994-367b-4d60-bcf
       - --runtime=python312
       - --region=us-central1
       - --source=Source
