@@ -1,4 +1,6 @@
+
 steps:
+  # Deploy to existing Iowa region
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: gcloud
     args:
@@ -9,6 +11,27 @@ steps:
       - --project=project-77468994-367b-4d60-bcf
       - --runtime=python312
       - --region=us-central1
+      - --source=Source
+      - --entry-point=run_discord_pull
+      - --trigger-http
+      - --no-allow-unauthenticated
+      - --memory=512MB
+      - --timeout=300s
+      - --env-vars-file=Source/env.yaml
+      - --service-account=discord-function-runtime@project-77468994-367b-4d60-bcf.iam.gserviceaccount.com
+      - --quiet
+
+  # Deploy a second instance to Mumbai
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - functions
+      - deploy
+      - discord-insight-pull
+      - --gen2
+      - --project=project-77468994-367b-4d60-bcf
+      - --runtime=python312
+      - --region=asia-south1
       - --source=Source
       - --entry-point=run_discord_pull
       - --trigger-http
