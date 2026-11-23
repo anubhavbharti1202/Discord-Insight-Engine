@@ -1,5 +1,6 @@
 functions-framework==3.*
-discord.py
+discord.py==2.7.1
 psycopg2-binary
 google-cloud-secret-manager
 python-dotenv
+cloudevents
